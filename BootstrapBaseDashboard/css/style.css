@@ -1,0 +1,131 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+.jumbotron{
+    min-height: 300px;
+    margin-left: 60px;
+	margin-top: 20px;
+	margin-right: 60px;
+    padding: 20px   ;
+}
+
+.form-control{
+    margin-top: 5px;
+}
+.btn{
+    margin-top: 5px;
+}
+
+.container{
+	padding: 20px;
+	margin: 0px;
+	background-color: #f9f9f9;
+	height: 100%;
+	width: 100%
+}
+.row {
+	margin-bottom: 0px;
+}
+
+.esquerdo{
+	min-height: 700px;
+	background-color: #084B8A;
+	margin-bottom: 0px;	
+	
+}
+.central{
+	padding: 15px
+}
+.bestilo{
+	width: 100%;
+}
+.titulo{
+	padding: 10px 5px 0px 45px;
+	color: #084B8A;
+}
+.titulo2{
+	padding: 10px 5px 0px 45px;
+	
+}
+.data1{
+	text-align: right;
+	
+	padding-top: 10px;
+	padding-right: 45px;
+	
+}
+.textInput{
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 45px;
+	
+}
+.subHeader{
+	margin-bottom:50px
+}
+
+
+
+.myProgress{
+	
+	border-radius: 7px;
+	margin: 0 auto;
+    width: 100px;
+    height: 130px;
+  
+}
+
+#myBar {
+    border-radius: 5px 5px 0px 0px;
+    bottom:0;
+    height: 100%;
+    background-color: #fff;
+ 
+}
+#myBar2 {
+    border-radius: 5px 5px 0px 0px;
+    bottom:0;
+    height: 100%;
+    background-color: #fff;
+ 
+}
+#myBar3 {
+    border-radius: 5px 5px 0px 0px;
+    bottom:0;
+    height: 100%;
+    background-color: #fff;
+ 
+}
+#myBar4 {
+    border-radius: 5px 5px 0px 0px;
+    bottom:0;
+    height: 100%;
+    background-color: #fff;
+ 
+}
+
+.color1{
+	background-color:orange
+}
+.color2{
+	background-color:#084B8A
+}
+.color3{
+	background-color:#0B6121
+}
+.color4{
+	background-color:#01A9DB
+}
+.circulo{
+	
+	margin-bottom: 20px;
+	padding-top: 32px;
+	border-radius:50%;
+	border-color: red; 
+	width: 200px; 
+	height: 200px; 
+	background-color: #ddd
+}

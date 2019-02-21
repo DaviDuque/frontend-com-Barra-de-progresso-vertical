@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html ng-app="gestaoPessoas">
+<head>
+<meta charset="UTF-8">
+<title>Base Bootstrap frontend</title>
+<script src="node_modules/angular-locale-pt-br/angular-locale_pt-br.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="node_modules/bootstrap-4.2.1-dist/css/bootstrap.min.css">
+<script src="js/controller.js"></script>
+<script src="js/script.js"></script>
+
+
+
+</head>
+<body >
+
+	<div class="row">
+		<div class="col-md-1 esquerdo">
+
+		</div>
+		<div class="container col-md-11">
+
+			<header class="row">
+				<div class="col-md-8">
+						<p class="titulo2">Ola <b>Marcio Joge</b>, Bem vindo ao Dom Rock</p>
+					</div>
+					<div class="col-md-4">
+						<p class="data1 text-primary">São Paulo, 07 de outubro de 2014</p>
+					</div>
+				</header>
+				<div class="row">
+					<div class="col-md-6">
+						<h2 class="titulo">Dashboard das Obrigações </h2>
+					</div>
+					<div class="form-group form-check col-md-6">
+					<div class="textInput">
+						<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+						<label class="form-check-label" for="defaultCheck1">
+							Incluir filiais
+						 </label>
+					</div>
+					</div>
+					
+				</div>
+			<div class="row">
+		
+				<div class="jumbotron">
+					
+		
+					<form class="subHeader">
+					
+						<div class="row">
+							<div class="col-md-5">
+								<select class="form-control">
+									<option>Speed Fiscal</option>
+								</select>
+							</div>
+							<div class="col-md-3">
+								<select class="form-control">
+									<option>Outubro</option>
+								</select>
+							</div>
+							<div class="col-md-2">
+								<select class="form-control">
+									<option>2014</option>
+								</select>
+							</div>
+							<div class="col-md-2">
+								<a class="btn btn-primary bestilo" href="#" role="button">Filtrar</a>
+							</div>
+
+						</div>
+					
+					</form>
+					<div class="row central">
+					<div class="row">
+						<div class="col-sm-3 text-center">
+							<div class="card text-center" style="width: 100%;">
+							  <div class="card-body">
+								<h5 class="card-title text-primary">Obrigações geradas</h5></br>
+									
+					 
+									<div class="circulo text-center">
+										<div class="myProgress color1 progress-bar-striped active">
+										  <div id="myBar"></div>
+										</div>
+									 
+									</div>
+									
+								 
+								<p class="card-text"><b>29 de 116</b></p>
+							  </div>
+							</div>
+							<button type="button" class="btn btn-link">Ver mais</button>
+						</div>
+						<div class="col-sm-3 text-center">
+							<div class="card text-center" style="width: 100%;">
+							  <div class="card-body">
+								<h5 class="card-title text-primary">Obrigações validadas no PVA</h5>
+									
+									<div class="circulo text-center">
+										<div class="myProgress color2 progress-bar-striped active">
+										  <div id="myBar2"></div>
+										</div>
+									 
+									</div>
+								
+								<p class="card-text"><b>58 de 116</b></p>
+							  </div>
+							</div>
+							<button type="button" class="btn btn-link">Ver mais</button>
+						</div>
+						<div class="col-sm-3 text-center">
+							<div class="card text-center" style="width: 100%;">
+							  <div class="card-body">
+								<h5 class="card-title text-primary">Relatórios e verificações</h5>
+								<div class="circulo text-center">
+										<div class="myProgress color3 progress-bar-striped active">
+										  <div id="myBar3"></div>
+										</div>
+									 
+								</div>
+								
+								
+								<p class="card-text"><b>87 de 116</b></p>
+							  </div>
+							</div>
+							<button type="button" class="btn btn-link">Ver mais</button>
+						</div>
+						<div class="col-sm-3 text-center">
+							<div class="card text-center" style="width: 100%;">
+							  <div class="card-body">
+								<h5 class="card-title text-primary">Obrigações transmitidas</h5>
+								
+								<div class="circulo text-center">
+										<div class="myProgress color4 progress-bar-striped active">
+										  <div id="myBar4"></div>
+										</div>
+									 
+									</div>
+								
+								<p class="card-text"><b>116 de 116</b></p>
+							  </div>
+							</div>
+							<button type="button" class="btn btn-link">Ver mais</button>
+						</div>
+					</div>
+					<div  class="subHeader">
+					<br><br>
+										<!--<button onclick="move('myBar', 25)" class="button btn btn-warning">Click Aqui</button>
+										<button onclick="move('myBar2', 50)" class="button btn btn-warning">Click Aqui</button>
+										<button onclick="move('myBar3', 75)" class="button btn btn-warning">Click Aqui</button>
+										<button onclick="move('myBar4', 100)" class="button btn btn-warning">Click Aqui</button>-->										
+					</div>					
+					</div>
+			
+					<br/>
+					
+		
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			<footer class="row">
+				
+			</footer>
+		</div>
+	<script>
+		setTimeout(function(){
+			window.onload = move('myBar', 25);
+			window.onload = move('myBar2', 50);
+			window.onload = move('myBar3', 75);
+			window.onload = move('myBar4', 100);	
+		}, 1000);
+		
+    </script>		
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
